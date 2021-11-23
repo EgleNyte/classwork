@@ -1,0 +1,13 @@
+p {
+    color:red;
+}
+li {
+    color:blue;
+}
+ol li:nth-child(2) {
+    width: 100px;
+    height: 100px;
+}
+p.thicker {
+    font-weight: bold;
+}
