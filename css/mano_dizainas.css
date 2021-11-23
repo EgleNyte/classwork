@@ -2,12 +2,29 @@ p {
     color:red;
 }
 li {
-    color:blue;
+    color:#800042;
 }
-ol li:nth-child(2) {
+#obuolys {
     width: 100px;
     height: 100px;
 }
-p.thicker {
-    font-weight: bold;
+
+#obuolys, #arbata, #ausinukai {
+    font-weight: normal;
+}
+
+body {
+    background-color: #ffe6f3;
+}
+
+#CSS, #postgre {
+    color: #e60000;
+}
+
+label {
+    color: #800042;
+}
+
+button {
+
 }

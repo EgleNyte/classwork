@@ -64,15 +64,15 @@
                 <div title="Pirkiniu sarasas">Pirkiniu sarasas
                 <ul>
                     <li>batonas</li>
-                    <li <p class="thicker">obuoliai</p></li>
+                    <li id="obuolys">obuoliai</li>
                     <li>cukrus</li>
-                    <li> <p class="thicker">arbata</p></li>
+                    <li id="arbata">arbata</li>
                     <li>pipirai</li>
-                    <li> <p class="thicker">ausinukai</p></li>
+                    <li id="ausinukai">ausinukai</li>
                 </ul>
                 </div>
                 <div title="top 5"><i>5 megstamiausiu filmu topas:</i>
-                <ol class="zebra">
+                <ol>
                     <li> The Intouchables</li>
                     <li>Coco</li>
                     <li>Dune</li>
@@ -87,7 +87,7 @@
                     <li>Frontend, naudojamos technologijos:</li>
                     <ol>
                         <li>HTML</li>
-                        <li>CSS</li>
+                        <li id="CSS">CSS</li>
                         <li>JavaScript, galima naudoti siuos karkasus:</li>
                         <ul style="list-style-type:square">
                             <li>jQuery</li>
@@ -108,7 +108,7 @@
                     <ul style="list-style-type:circle">
                         <li>MySQL</li>
                         <li>MariaDB</li>
-                        <li>PostgreSQL</li>
+                        <li id="postgre">PostgreSQL</li>
                         <li>...</li>
                     </ul>
                 </ul>
@@ -116,8 +116,10 @@
         <!--Formos-->
             <hr>
         <form action="#" method="post" target="_blank">
-            <input name="firstname" type="text" placeholder="Vartotojo vardas"><br>
-            <input name="password" type="password" placeholder="Slaptazodis"><br>
+            <label>Vartotojo vardas</label>
+            <input name="firstname" type="text"><br>
+            <label>Slaptazodis</label>
+            <input name="password" type="password"><br>
             <button type="button" onclick="alert('Prisijungti!')">Prisijungti</button>
         </form>
         <hr>
@@ -125,6 +127,8 @@
             <input name="firstname" type="text" placeholder="Jusu vardas"><br>
             <input name="email address" type="text" placeholder="Jusu el. pasto adresas"><br>
             <input name="text" type="text" placeholder="Zinutes tema"><br>
+            <textarea placeholder="Zinute"></textarea><br>
+            <button type="submit" onclick="alert('Siusti zinute')">Siusti zinute</button>
         </form>
         </body>
 </html>
