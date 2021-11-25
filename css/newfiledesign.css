@@ -1,9 +1,10 @@
 
 /*--figuru vietos--*/
 
-div {
+/*--div {
     width: 100px;
     height: 100px;
+    position: absolute;
 }
 .static {
     font-size: 30px;
@@ -26,8 +27,8 @@ div {
 .fixed {
     font-size: 30px;
     position: fixed;
-    top: 50px;
-    left: 200px;
+    top: 100px;
+    left: 500px;
     background-color: cornflowerblue;
     display: block;
 }
@@ -44,5 +45,53 @@ div {
     position: absolute;
     top: 30px;
     left: 30px;
+}--*/
+
+/*--media queries--*/
+
+.cele {
+    display: grid;
+    border: 1px double;
 }
 
+
+html, body {
+    height: 200vh;
+}
+
+body {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% auto 8%;
+    grid-template-columns: 15% auto 15%;
+    grid-gap: 5px;
+    grid-template-areas:
+        'b b b'
+        'a c d'
+        'a e e';
+}
+
+.left {
+    grid-area: a;
+    background-color: #ffb6c1;
+}
+
+.header {
+    grid-area: b;
+    background-color: #ffe6f3;
+}
+
+.main {
+    grid-area: c;
+    background-color: #d3d3d3;
+}
+
+.right {
+    grid-area: d;
+    background-color: #e0ffff;
+}
+
+.footer {
+    grid-area: e;
+    background-color: #ffb6c1;
+}
