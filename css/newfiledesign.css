@@ -1,0 +1,48 @@
+
+/*--figuru vietos--*/
+
+div {
+    width: 100px;
+    height: 100px;
+}
+.static {
+    font-size: 30px;
+    background-color: grey;
+}
+.absolute {
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    background-color: hotpink;
+}
+.relative {
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: yellow;
+}
+.fixed {
+    font-size: 30px;
+    position: fixed;
+    top: 50px;
+    left: 200px;
+    background-color: cornflowerblue;
+    display: block;
+}
+.super {
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    position: relative;
+    top: 70px;
+    left: 200px;
+}
+.last {
+    background-color: purple;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+

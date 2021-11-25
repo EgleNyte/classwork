@@ -21,10 +21,34 @@ body {
     color: #e60000;
 }
 
+/*-- Layout --*/
+
+html, body {
+    width: 100%;
+    height:100%;
+}
+
 label {
     color: #800042;
 }
-
-button {
-
+head {
+    background-color: lightpink;
+}
+aside{
+    background-color: cadetblue;
+    width: 250px;
+    float:left;
+}
+main {
+    background-color: #f8e679;
+    width: 76%;
+    float:left;
+}
+footer {
+    background-color: #53555d;
+    color: antiquewhite;
+    clear: both;
+}
+turinys {
+    width: 100%;
 }
