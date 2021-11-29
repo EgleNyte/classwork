@@ -2,11 +2,23 @@
 <html>
     <head>
         <title>This is the file in another catalog</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="layout.css">
     </head>
     <body>
-        <h3>Good morning world!</h3>
-        This is my file from another <i>Morningwork</i> folder in <i>Classwork</i> folder.<br><br>
-        <a href="../index.html">Let's go back to our main file in the Classwork catalog</a>
-        <h6>index.html is one catalog back from this file, this is why we use this</h6>
+        <aside class="cele left">
+            Links:<br>
+            <a href="../index.html" target="_blank">Let's go back to our main file in the Classwork catalog</a>
+        </aside>
+        <header class="cele header">
+            <h3>Good morning world!</h3>
+        </header>
+        <main class="cele main">
+            This is my file from another <i>Morningwork</i> folder in <i>Classwork</i> folder.<br>
+            <h6>index.html is one catalog back from this file, this is why we use this</h6>
+        </main>
+        <aside class="cele right">Right sidebar</aside>
+        <footer class="cele footer">Footer</footer>
     </body>
 </html>

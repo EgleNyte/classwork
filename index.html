@@ -4,9 +4,14 @@
 	        <title>My first page</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
             <link rel="stylesheet" href="css/mano_dizainas.css">
+            <link rel="stylesheet" href="css/mainlayout.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
         <body>
-            <header>
+            <aside class="cele left">
+                <h2>
+                    Links:
+                </h2>
                 <h3>
                     <a href="https://www.youtube.com/">Visit YouTube.com</a><br>
                     <a href="https://www.google.com" target="_blank">Visit Google.com on a new tab</a><br>
@@ -14,12 +19,11 @@
                     <a href="Newfile.html">Go to a file in the same catalog</a><br>
                     <a href="morningwork/Goodmorning.html">Go to another file in different catalog</a>
                 </h3>
-            </header>
-            <div class="turinys">
-                <aside>
-                Mano puslapis
             </aside>
-                <main>
+            <header class="cele header">
+                    Welcome to my Formula 1 blog
+            </header>
+            <main class="cele main">
             <h1>Hello world!</h1>
             <p>My paragraph</p>
             <p>It's the second paragraph</p>
@@ -61,11 +65,12 @@
             </table>
             <!--Practice 2-->
             <h4>
-                <a href="https://www.google.com" target="_blank"><img src="images/f1car.jpg" alt="paveiksliukas"></a><br>
-                <a href="https://blog.radissonblu.com/wp-content/uploads/2016/08/Spa-Picture-Blog-Post.jpg" target="_blank"><img src="https://blog.radissonblu.com/wp-content/uploads/2016/08/Spa-Picture-Blog-Post.jpg" alt="paveiksliukas1" width="400"></a>
+                <a href="https://www.google.com" target="_blank"><img src="images/f1car.jpg" alt="paveiksliukas" width="653"></a><br>
+                <a href="https://blog.radissonblu.com/wp-content/uploads/2016/08/Spa-Picture-Blog-Post.jpg" target="_blank"><br>
+                <img src="https://blog.radissonblu.com/wp-content/uploads/2016/08/Spa-Picture-Blog-Post.jpg" alt="paveiksliukas1" width="400"></a>
                 <img src="images/drivers.jpg" alt="paveiksliukas2" width="539"><br>
                 <img src="https://www.racetrackmasters.com/wp-content/uploads/2021/06/All-F1-drivers-boycotted-Pirelli-meeting.jpg" alt="paveiksliukas3" width="673">
-                <img src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2021/10/16142159/valtteri-bottas-mercedes-turkish-grand-prix-2021-planetf1-1200x630.jpg" alt="paveiksliukas" width="972">
+                <img src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2021/10/16142159/valtteri-bottas-mercedes-turkish-grand-prix-2021-planetf1-1200x630.jpg" alt="paveiksliukas" width="400">
             </h4>
             <h1>
                 <div title="Pirkiniu sarasas">Pirkiniu sarasas
@@ -137,10 +142,11 @@
                 <textarea placeholder="Zinute"></textarea><br>
                 <button type="submit" onclick="alert('Siusti zinute')">Siusti zinute</button>
             </form>
+
         </main>
-            </div>
-            <footer>
-                Visos teises saugomos&copy;2021
+            <aside class="cele right">Right sidebar</aside>
+            <footer class="cele footer">
+                Designed by Egle Kukucionyte<br>
             </footer>
         </body>
 </html>
