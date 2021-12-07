@@ -5,6 +5,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
             <link rel="stylesheet" href="css/mano_dizainas.css">
             <link rel="stylesheet" href="css/mainlayout.css">
+            <link rel="stylesheet" href="css/tabudesign.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
         <body>
@@ -22,6 +23,21 @@
             </aside>
             <header class="cele header">
                     Welcome to my Formula 1 blog
+                <div class="tabai">
+                    <a href="#home" onclick="pakeitiTaba('home')">HOME</a>
+                    <a href="#archive" onclick="pakeitiTaba('archive')">ARCHIVE</a>
+                    <a href="#settings" onclick="pakeitiTaba('settings')">SETTINGS</a>
+                    <a href="#other" onclick="pakeitiTaba('other')">OTHER</a>
+                    <a href="#kita" onclick="pakeitiTaba('kita')">KITA</a>
+                </div>
+
+                <div class="sheets">
+                    <div id="home" class="sheet">HOME DATA</div>
+                    <div id="archive" class="sheet">ARCHIVE DATA</div>
+                    <div id="settings" class="sheet">SETTINGS DATA</div>
+                    <div id="other" class="sheet">OTHER DATA</div>
+                    <div id="kita" class="sheet">KITA DATA</div>
+                </div>
             </header>
             <main class="cele main">
             <h1>Hello world!</h1>
@@ -142,12 +158,20 @@
                 <textarea placeholder="Zinute"></textarea><br>
                 <button type="submit" onclick="alert('Siusti zinute')">Siusti zinute</button>
             </form>
-
         </main>
-            <aside class="cele right">Right sidebar</aside>
+            <aside class="cele right">
+                <p>Trikampis ir keturkampis</p>
+                <p id="ats"></p><br>
+                <p id="atsakymas12"></p>
+                <p id="apieMane"></p>
+                <div id="rezultatai">Cia bus rezultatai: <br/></div>
+                <button onclick="rodytiFunkcija()">Paspausti</button>
+            </aside>
             <footer class="cele footer">
                 Designed by Egle Kukucionyte<br>
             </footer>
             <script src="/js/kodas.js"></script>
+            <script src="js/practice.js"></script>
+            <script src="js/tabukodas.js"></script>
         </body>
 </html>
