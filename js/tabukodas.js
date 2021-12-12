@@ -1,4 +1,4 @@
-let sheets = document.getElementsByClassName('sheet');
+/*let sheets = document.getElementsByClassName('sheet');
 
 function pakeitiTaba (taboId) {
     for (var i = 0; sheets.length > i; i++) {
@@ -7,4 +7,4 @@ function pakeitiTaba (taboId) {
 
     document.getElementById(taboId)
         .style.display = 'block';
-}
+}*/

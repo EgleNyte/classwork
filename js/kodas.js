@@ -216,3 +216,11 @@ function rodytiFunkcija(){
             results.innerHTML += 'Skaiciu [' + i + ', ' + b1 + '] dalyba: ' + dalyba(i, b1) + '<hr>';
         }
 }
+
+$('tabai > a').click(
+    function () {
+        $('.sheets > div').hide();
+        let kaRodyti = $(this).attr('href');
+        $(kaRodyti).show();
+    }
+)
